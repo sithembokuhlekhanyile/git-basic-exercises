@@ -1,0 +1,656 @@
+    1  git init
+    2  echo " friday" >dasd.md
+    3  ls
+    4  git add .
+    5  git remote add https://github.com/sithembokuhlekhanyile/lab-agile-planning
+    6  ls
+    7  git push -u origin main
+    8  ssh-keygen -t ed25519 -C "your_email@example.com"
+    9  sudo apt update
+   10  sudo apt install openssh-client -y
+   11  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-394-bash-for-bootcamp-.git
+   12  cd sithembokuhle-khanyile-394-bash-for-bootcamp-
+   13  ssh-keygen -t ed25519 -C "khanyilesithembokuhle0@gmail.com"
+   14  ls ~/.ssh
+   15  eval "$(ssh-agent -s)"
+   16  ssh-add ~/.ssh/id_ed25519
+   17  cat ~/.ssh/id_ed25519.pub
+   18  ssh -T git@github.com
+   19  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-394-bash-for-bootcamp-.git
+   20  cd sithembokuhle-khanyile-394-bash-for-bootcamp-
+   21  echo # # Question
+   22  What is the purpose of the ls command?
+   23  # Answer
+   24  It provides a way to view the contents of the current working directory by listing files and directories in a directory." > question_1.md
+   25  q
+   26  echo " # Question
+   27  What is the purpose of the ls command?
+   28  # Answer
+   29  It provides a way to view the contents of the current working directory by listing files and directories in a directory." > question_1.md
+   30  ls
+   31  echo "Question
+   32  What does the ls command output?
+   33  # Answer
+   34   The ls command outputs a list of files and directories in the current directory. It helps you see what files are present and gives an overview of the contents in the specific location you're working in. If you want more details or specific information, you can use various options with the ls command.
+   35   Some of the few options we can use are:
+   36  1. ls alone without any arguments and with this we list the files in the current working directory. 
+   37  2. ls/path/directory specifies a directory to list content.
+   38  3. ls -l is for long lists which gives detailed information. 
+   39  4. ls -a shows hidden files (files that start with a dot). etc..." > question_2.md
+   40  ls
+   41  echo " # Question 
+   42  What does the pwd command do?
+   43  # Answer
+   44  This command prints the current working directory, indicating the full path from the root directory" > question_3.md
+   45  echo " # Question
+   46  what command would you use to make a new directory?
+   47  # Answer
+   48   The mkdir is the command used to make new directories" > question_4.md
+   49  ls
+   50  echo " # Question
+   51  What command would you use to navigate into a new directory?
+   52  # Answer
+   53  The cd command followed by the name of the directory you want to go to." > question_5.md
+   54  ls
+   55  echo " # Question
+   56  What command would you use to navigate ‘upwards’ one level in the directory hierarchy?
+   57  # Answer
+   58   The cd .. command" > question_6.md
+   59  ls
+   60  nano question_6.md
+   61  rm question_6.md
+   62  ls
+   63  echo "# Question
+   64  What command would you use to navigate \"upwards\" one level in the directory hierarchy?
+   65  # Answer
+   66  The cd .. command" > question_6.md
+   67  ls
+   68  echo " #  Question
+   69  What command would you use to navigate upward two levels?
+   70  # Answer 
+   71   The cd ../.." > question_7.md
+   72  echo " # Question
+   73  What does the command cd home do?
+   74  # Answer
+   75  Attempts to change the current working directory to a directory named home and would give an error if no such directory is present." > question_8.md
+   76  ls
+   77  cat question_8.md
+   78  echo " # Question
+   79  What is a relative path?
+   80  # Answer
+   81  It is a path that specifies the location of a file or directory in relation to the current working directory" > question_9.md
+   82  ls
+   83  echo " # Question 
+   84  What is an absolute path?
+   85  # Answer
+   86  Is a path that specifies the complete file to a file or directory starting from the root directory." > question_10.md
+   87  cat question_10.md
+   88  echo " # Question
+   89   Explain the usage of the man command?
+   90   
+   91   # Answer
+   92   
+   93  It is used to display the manual or documentation for a given command in the terminal." > question_11.md
+   94  cat question_11.md
+   95  echo " # Question
+   96  What command would you use to remove the directory git-basic-exercises? Assume that this directory is NOT empty.
+   97  # Answer
+   98  rm -r git-basic-exercises" > question_12.
+   99  cat question_12.md
+  100  ls
+  101  cat question_12.
+  102  rm question_12.
+  103  ls
+  104  echo " # Question
+  105  What command would you use to remove the directory git-basic-exercises? Assume that this directory is NOT empty.
+  106  # Answer
+  107  rm -r git-basic-exercises" > question_12.md
+  108  echo " # Question
+  109  Explain the use of tab completion?
+  110  # Answer
+  111  Tab completion is a command-line interface feature that allows users to efficiently complete file, directory, command, or argument names by typing the initial characters and pressing the Tab key." > question_13.md
+  112  ls
+  113  git add .
+  114  git commit -m "commit for beginning bash questions"
+  115  git config --global user.email "khanyilesithembokuhle0@gmail.com"
+  116  git commit -m "commit for beginning bash questions"
+  117  git log
+  118  git status
+  119  git push origin main
+  120  ls
+  121  ls -a
+  122  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-219-level-1-programming-katas-javascript.git
+  123  ls
+  124  cd sithembokuhle-khanyile-219-level-1-programming-katas-javascript
+  125  ls
+  126  rm -rf task2.js
+  127  ls
+  128  rm -rf task3.js task4.js task5.js task6.js task7.js
+  129  ls
+  130  rm -rf task1.js
+  131  git init
+  132  echo " function task1(limit) {
+  133      function multiples(limit) {
+  134          let totalSum = 0;
+  135          for (let i = 0; i < limit; i++) {
+  136              if (i % 3 === 0 || i % 5 === 0) {
+  137                  totalSum += i;
+  138              }
+  139          }
+  140          console.log(totalSum);
+  141      }
+  142      return multiples(limit);
+  143  }
+  144  module.exports = { task1 };" > task1.js
+  145  ls
+  146  git checkout main 
+  147  git pull
+  148  ls
+  149  git checkout -b Task/1
+  150  ls
+  151  git push
+  152  git push --set-upstream origin Task/1
+  153  ls
+  154  git checkout main
+  155  git status
+  156  git add .
+  157  git status
+  158  git commit -m "deleted files"
+  159  git push origin main
+  160  ls
+  161  git branch
+  162  git checkout Task/1
+  163  ls
+  164  git status
+  165  git rm-rf task1.js task2.js
+  166  git rm -rf task1.js
+  167  ls
+  168  git rm -rf task2.js task3.js task4.js task5.js task6.js task7.js
+  169  git status
+  170  ls
+  171  git checkout main
+  172  ls
+  173  rm task1.js
+  174  git checkout tmain
+  175  git checkout main
+  176  git add .
+  177  ls
+  178  git checkout main
+  179  git commit -m " commit for task1"
+  180  git checkout main
+  181  ls
+  182  git pull
+  183  git checkout Task/1
+  184  ls
+  185  git checkout main
+  186  ls
+  187  rm-rf task1.js
+  188  git rm -rf task1.js
+  189  git add .
+  190  git commit -m  "delete file"
+  191  git checkout Task/1
+  192  echo " function task1(limit) {
+  193      function multiples(limit) {
+  194          let totalSum = 0;
+  195          for (let i = 0; i < limit; i++) {
+  196              if (i % 3 === 0 || i % 5 === 0) {
+  197                  totalSum += i;
+  198              }
+  199          }
+  200          console.log(totalSum);
+  201      }
+  202      return multiples(limit);
+  203  }
+  204  module.exports = { task1 };" > task1.js
+  205  git add task1.js
+  206  git commit -m " commit for the first task"
+  207  git push -u origin task/1
+  208  git push -u origin Task/1
+  209  git pull
+  210  git push -u origin task/1
+  211  git pull origin Task/1
+  212  git status
+  213  git add .
+  214  git status
+  215  git pull
+  216  git fetch origin
+  217  git checkout main
+  218  git fetch origin
+  219  git reset --hard origin/main
+  220  git branch | grep -v "main" | xargs git branch -D
+  221  git clean -fd
+  222  git push origin main --force
+  223  rm -rf *
+  224  rm -rf .[^.] .??*
+  225  git add .
+  226  git commit -m "Remove all files and reset repository"
+  227  git push origin main --force
+  228  cd ..
+  229  ls
+  230  rm -r dasd.md
+  231  ls
+  232  sudo apt update
+  233  sudo apt upgrade -y
+  234  sudo apt install git -y
+  235  git --version
+  236  git config --list --show-origin
+  237  ls
+  238  ssh-keygen -t ed25519 -C "khanyilesithembokuhle0@gmail.com"
+  239  ls
+  240  ls -a
+  241  eval "$(ssh-agent -s)"
+  242  ssh-add ~/.ssh/id_ed25519
+  243  ls
+  244  ls -a
+  245  cd .ssh
+  246  ls
+  247  cd ..
+  248  ssh -T git@github.com
+  249  ssh-add -l
+  250  rm -rf .ssh
+  251  ls
+  252  ls -a
+  253  ls ~/.ssh
+  254  ssh-keygen -t ed25519 -C "khanyilesithembokuhle0@gmail.com"
+  255  eval "$(ssh-agent -s)"
+  256  ssh-add ~/.ssh/id_ed25519
+  257  ls
+  258  ls -a
+  259  cd .ssh
+  260  ls
+  261  ssh-keygen -t rsa -b 4096 -C "khanyilesithembokuhle0@gmail.com"
+  262  cat ~/.ssh/id_rsa.pub
+  263  cd ..
+  264  ls
+  265  ssh -T git@github.com
+  266  ls
+  267  cd sithembokuhle-khanyile-219-level-1-programming-katas-javascript
+  268  ls
+  269  git checkout main
+  270  git pull
+  271  git branch
+  272  git checkout -b Task/1
+  273  git checkout main
+  274  ls
+  275  git pull
+  276  git init
+  277  ls
+  278  git checkout -b task1
+  279  ls
+  280  git branch
+  281  git checkout master
+  282  git checkout main
+  283  cd ..
+  284  rm -r userland@localhost:~/sithembokuhle-khanyile-219-le
+  285  vel-1-programming-katas-javascript
+  286  git rm -rf sithembokuhle-khanyile-219-level-1-programming-katas-javascript
+  287  rm -rf sithembokuhle-khanyile-219-level-1-programming-katas-javascript
+  288  ls
+  289  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-219-level-1-programming-katas-javascript.git
+  290  ls
+  291  cd sithembokuhle-khanyile-219-level-1-programming-katas-javascript
+  292  ls
+  293  rm -rf task1.js task2.js task3.js task4.js task5.js task6.js task7.js
+  294  ls
+  295  git checkout main
+  296  git add .
+  297  git commit -m "deleted files"
+  298  git pull 
+  299  git checkout -b Task/1
+  300  git init
+  301  echo "function task1(limit) {
+  302      function multiples(limit) {
+  303          let totalSum = 0;
+  304          for (let i = 0; i < limit; i++) {
+  305              if (i % 3 === 0 || i % 5 === 0) {
+  306                  totalSum += i;
+  307              }
+  308          }
+  309          console.log(totalSum);
+  310      }
+  311      return multiples(limit);
+  312  }
+  313  module.exports = { task1 };" > task1.js
+  314  git add task1.js
+  315  git commit -m " commit for the first task"
+  316  git push -u origin task/1
+  317  git branch
+  318  git push -u origin Task/1
+  319  git pull origin Task/1 --rebase
+  320  git push -u origin Task/1
+  321  git checkout main
+  322  ls
+  323  git pull
+  324  git checkout -b Task/2
+  325  echo " function task2(num1, num2) {
+  326    function hasThree(num1, num2) {
+  327      if (num1 === 3 || num2 === 3) {
+  328        let sum = num1 + num2;
+  329        while (sum > 0) {
+  330          if (sum % 10 === 3) {
+  331            return true;
+  332          }
+  333          sum = Math.floor(sum / 10); 
+  334        }
+  335      }
+  336      return false;
+  337    }
+  338    return hasThree(num1, num2);
+  339  }
+  340  module.exports = { task2 };" > task2.js
+  341  ls
+  342  git add .
+  343  git commit -m " commit for the second task"
+  344  git push -u origin Task/1
+  345  git push -u origin Task/2
+  346  git checkout main 
+  347  git pull
+  348  git checkout Task/3
+  349  git checkout -b Task/3
+  350  echo " function task3(num1, num2) {
+  351    function is_sixty_five(num1, num2) {
+  352      if (num1 === 65 || num2 === 65 || num1 + num2 === 65) {
+  353        return true;
+  354      }
+  355      return false;
+  356    }
+  357    return is_sixty_five(num1, num2);
+  358  }
+  359  module.exports = { task3 };" > task3.js
+  360  ls
+  361  git add .
+  362  git commit -m "commit for third task"
+  363  git push -u origin Task/3
+  364  git checkout main
+  365  git pull
+  366  git checkout -b Task/4
+  367  ls
+  368  echo " function task4(number) {
+  369    function square(number) {
+  370      for (let i = 0; i < number; i++) {
+  371        let row = '';
+  372        for (let j = 0; j < number; j++) {
+  373          row += '#';
+  374        }
+  375        console.log(row);
+  376      }
+  377    }
+  378    square(number);
+  379  }
+  380  module.exports = { task4 };" > task4.js
+  381  git add .
+  382  git commit -m " commit for the fourth task"
+  383  git push -u origin Task/4
+  384  git branch
+  385  git checkout main
+  386  git pull
+  387  git checkout -b Task/5
+  388  echo " function task5(number) {
+  389    function triangle(number) {
+  390      if (number > 0) {
+  391        // Print a triangle for positive number
+  392        for (let i = 1; i <= number; i++) {
+  393          let row = '';
+  394          for (let j = 0; j < i; j++) {
+  395            row += '#';
+  396          }
+  397          console.log(row);
+  398        }
+  399      } else if (number < 0) {
+  400        // Print an upside-down triangle for negative number
+  401        for (let i = 1; i <= -number; i++) {
+  402          let row = '';
+  403          for (let j = 0; j < -number - i + 1; j++) {
+  404            row += '#';
+  405          }
+  406          console.log(row);
+  407        }
+  408      }
+  409    }
+  410    triangle(number);
+  411  }
+  412  module.exports = { task5 };" > task5.js
+  413  ls
+  414  git add .
+  415  git commit -m "commit for the fifth task"
+  416  git push -u origin Task/5
+  417  git checkout main
+  418  git pull
+  419  git checkout -b Task/6
+  420  echo "function task6(arr) {
+  421    function longest(arr) {
+  422      let maxLength = 0;
+  423      let longestWords = [];
+  424      for (let i = 0; i < arr.length; i++) {
+  425        let word = arr[i];
+  426        let wordLength = 0;
+  427        
+  428        for (let j = 0; j < word.length; j++) {
+  429          wordLength++;
+  430        }
+  431        
+  432        if (wordLength > maxLength) {
+  433          maxLength = wordLength;
+  434          longestWords = [word];
+  435        } else if (wordLength === maxLength) {
+  436          longestWords.push(word);
+  437        }
+  438      }
+  439      
+  440      for (let i = 0; i < longestWords.length; i++) {
+  441        console.log(longestWords[i]);
+  442      }
+  443    }
+  444    longest(arr);
+  445  }
+  446  module.exports = { task6 };
+  447  q
+  448  echo " function task6(arr) {
+  449    function longest(arr) {
+  450      let maxLength = 0;
+  451      let longestWords = [];
+  452      for (let i = 0; i < arr.length; i++) {
+  453        let word = arr[i];
+  454        let wordLength = 0;
+  455        
+  456        for (let j = 0; j < word.length; j++) {
+  457          wordLength++;
+  458        }
+  459        
+  460        if (wordLength > maxLength) {
+  461          maxLength = wordLength;
+  462          longestWords = [word];
+  463        } else if (wordLength === maxLength) {
+  464          longestWords.push(word);
+  465        }
+  466      }
+  467      
+  468      for (let i = 0; i < longestWords.length; i++) {
+  469        console.log(longestWords[i]);
+  470      }
+  471    }
+  472    longest(arr);
+  473  }
+  474  module.exports = { task6 };" > task6.js
+  475  ls
+  476  git add .
+  477  git commit -m " commit for the 7th task "
+  478  git push -u origin Task/6
+  479  git checkout main
+  480  git pull
+  481  git checkout -b Task/7
+  482  ls
+  483  echo " function task7(arr1, arr2) {
+  484    function combine(arr1, arr2) {
+  485      let result = [];
+  486      let i = 0;
+  487    
+  488      while (i < arr1.length || i < arr2.length) {
+  489        if (i < arr1.length) {
+  490          result.push(arr1[i]);
+  491        }
+  492      
+  493        if (i < arr2.length) {
+  494          result.push(arr2[i]);
+  495        }
+  496      
+  497        i++;
+  498      }
+  499    
+  500      return result;
+  501    }
+  502    return combine(arr1, arr2);
+  503  }
+  504  module.exports = { task7 };" > task7.js
+  505  ls
+  506  git add .
+  507  git commit -m " commit for the seventh task"
+  508  git push -u origin Task/7
+  509  git checkout main
+  510  git pull
+  511  git checkout Task/6
+  512  ls
+  513  git commit --amend
+  514  git commit --amend -m "commit for the sixth task"
+  515  git push --force origin Task/1
+  516  git push --force origin Task/6
+  517  ls
+  518  cd sithembokuhle-khanyile-394-bash-for-bootcamp-
+  519  ls
+  520  nano question_4.md
+  521  cat question_4.md
+  522  sudo apt update
+  523  sudo apt install nano
+  524  nano question_2.md
+  525  nano question_4.md
+  526  git status
+  527  git add question_2.md question_4.md
+  528  git commit -m "modified questions"
+  529  git push -u origin main
+  530  node -- version
+  531  ls
+  532  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-963-contentitem-.git
+  533  ls
+  534  cd sithembokuhle-khanyile-963-contentitem- 
+  535  ls
+  536  git staus
+  537  git status
+  538  nano question_1.md
+  539  git status
+  540  nano question_2.md
+  541  nano question_3.md
+  542  nano question_4.md
+  543  nano question_5.md
+  544  nano question_6.md
+  545  git status
+  546  git add .
+  547  git commit -m " Test driven development questions"
+  548  git push -u origin main
+  549  cd ..
+  550  ls
+  551  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-429-bootcamp-writing-assignment-.git
+  552  ls
+  553  cd sithembokuhle-khanyile-429-bootcamp-writing-assignment-
+  554  ls
+  555  nano question_1.md
+  556  nano question_2.md
+  557  nano question_3.md
+  558  nano question_4.md
+  559  cat question_4.md
+  560  nano question_5.md
+  561  ls
+  562  rm -rf question1.md question2.md question3.md question4.md question5.md question6.md quedstion7.md question8.md question9.md question10.md
+  563  ls
+  564  rm -rf Question8.md question7.md question11.md
+  565  ls
+  566  git status
+  567  git add question1.md question2.md question3.md question4.md question5.md question6.md question7.mdquestion8.md question9.md question10.md question11.md
+  568  ls
+  569  git status
+  570  cd ..
+  571  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-429-bootcamp-writing-assignment-.git
+  572  cd git@github.com:Umuzi-org/sithembokuhle-khanyile-429-bootcamp-writing-assignment-.git
+  573  cd userland@localhost:~/sithembokuhle-khanyile-429-bootcamp-writing-assignment
+  574  ls
+  575  cd sithembokuhle-khanyile-429-bootcamp-writing-assignment-
+  576  ls
+  577  nano question_6.md
+  578  nano question_7.md 
+  579  ls
+  580  nano question_8.md
+  581  nano question_9.md
+  582  question_10.md
+  583  nano question_10.md
+  584  question_11.md 
+  585  nano question_11.md
+  586  ls
+  587  git add .
+  588  git status
+  589  git reset
+  590  git status
+  591  git add question_1.md question_2.md question_3.md question_4.md question_5.md question_6.md question_7.md question_8.md question_9.md question_10.md question_11.md
+  592  git status
+  593  git commit -m "commit for writing assignment questions"
+  594  git push -u main
+  595  git push -u origin main
+  596  ls
+  597  git clone git@github.com:Umuzi-org/sithembokuhle-khanyile-223-person-javascript.git
+  598  Reviews
+  599  git init 
+  600  ls 
+  601  cd sithembokuhle-khanyile-223-person-javascript
+  602  ls
+  603  git add .
+  604  git commit -m "commit for person class"
+  605  git push origin main
+  606  ls
+  607  mkdir git-basic-exercises
+  608  ls
+  609  cd git-basic-exercises
+  610  ls -a
+  611  git init
+  612  ls -a
+  613  git status
+  614  touch README.md
+  615  ls -a
+  616  git status
+  617  git log
+  618  git add .
+  619  git status
+  620  git restore --staged README.md
+  621  git status
+  622  git commit -m "initial commit"
+  623  git log
+  624  nano README.md 
+  625  cat README.md
+  626  git status
+  627  git add .
+  628  git commit -m "second commit"
+  629  git log
+  630  nano README.md
+  631  git status
+  632  git add .
+  633  git commit -m "third commit"
+  634  git log
+  635  git checkout bd0928033652972082c63c115dba41796
+  636  a6faa7
+  637  cat README.md
+  638  ggit checkout main
+  639  git checkout main
+  640  git branch
+  641  git checkout master
+  642  cat README.md
+  643  git branch
+  644  git checkout -b milkshake-flavours
+  645  git branch
+  646  nano milkshakes.md
+  647  cat milkshakes.md
+  648  git status
+  649  git add .
+  650  git commit -m "added initial flavours"
+  651  git log
+  652  git checkout master
+  653  git checkout -b history
+  654  git log 
+  655  git branch
+  656  history > history.txt
