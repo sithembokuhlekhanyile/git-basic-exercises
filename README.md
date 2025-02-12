@@ -1,1 +1,2 @@
-The unbiased observer 
+The unbiased observer watches  not for judgement not for fun but because thats's shat watchers do they watch
+ 
